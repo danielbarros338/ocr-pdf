@@ -5,10 +5,3 @@ services:
     restart: always
     ports:
       - 3001:3001
-    networks:
-      - ocr-network
-
-networks:
-  ocr-network:
-    driver: bridge
-    external: true
