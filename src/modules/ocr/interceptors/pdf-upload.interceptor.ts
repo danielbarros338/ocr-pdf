@@ -15,5 +15,5 @@ export const pdfMulterOptions: Options = {
     }
     cb(null, true);
   },
-  // (opcional) limits: { fileSize: 10 * 1024 * 1024 },
+  limits: { fileSize: 10 * 1024 * 1024 }, // 10MB
 };
